@@ -5,5 +5,5 @@
 // This file contains the JS functions for index.html
 
 function Helloworld() {
-    alert("Hello world");
-  }
+  alert("Hello world");
+}
