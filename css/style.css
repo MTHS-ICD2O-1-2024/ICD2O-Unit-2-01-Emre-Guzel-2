@@ -13,13 +13,16 @@ body {
   font-weight: weight;
   font-style: normal;
   background: skyblue;
-  margin: 2rem;
-
 }
 
 .Calculate {
-  width: 30%;
+  width: 20%;
   text-align: center;
   margin-top: 5vw;
-  margin-left: 36vw;
+  margin-left: 60vw;
+}
+
+#answer {
+  color: black;
+  margin-top: 1rem;
 }

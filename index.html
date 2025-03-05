@@ -13,9 +13,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
     rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
   <title>Hello world in js </title>
@@ -26,25 +26,23 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Calculate</span>
+        <span class="mdl-layout-title">Hello world in JS!</span>
       </div>
     </header>
     <br>
-    <form class='clauclator-form' action="#">
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
-        <label class="mdl-textfield__label" for="sample4">Number...</label>
-        <span class="mdl-textfield__error">Input is not a number!</span>
-      </div>
+    <form action="#">
+      <main id="click-me " class="mdl-layout__content">
+        <button id="click" type="button" onclick="Helloworld()"
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+          Click here
+        </button>
     </form>
-    <main id="click me " class="mdl-layout__content">
-      <button onclick="Helloworld()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-        Answer
-      </button>
+    <div id="answer"></div>
     </main>
   </div>
-  <img class="Calculate" src="images/clauclator.jpg" alt="">
+  <img class="Calculate" src="images/Hello_World_Brian_Kernighan_1978.jpg" alt="">
+
+  <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>
